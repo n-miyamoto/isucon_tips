@@ -45,3 +45,11 @@ http {
   access_log  /var/log/nginx/access.log ltsv;
 }
 ```
+
+
+## その他
+うまいこと正規表現などで、特定のリクエストの時間を集計する必要がある。
+
+```sh
+sudo alp ltsv --file="/var/log/nginx/access.log" -m "new_items/\d+.json","/users/\d+.json","/items/\d+.json","/upload/*","/transactions/\d+.png" --sort=sum
+```
