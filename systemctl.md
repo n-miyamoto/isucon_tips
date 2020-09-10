@@ -31,11 +31,11 @@ systemctl start ${Unit}
 ```
 	systemctl is-enabled ${Unit}
 ```
-###　サービス一覧
+### サービス一覧
 ```
 	systemctl list-unit-files --type=service
 ```
-###　設定ファイルの再読込
+### 設定ファイルの再読込
 ```
 	systemctl daemon-reload
 ```
