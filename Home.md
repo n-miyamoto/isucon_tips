@@ -18,3 +18,5 @@ https://github.com/n-miyamoto/isucon_suburi/wiki/systemctl
 ## ruby 
 https://github.com/n-miyamoto/isucon_suburi/wiki/ruby
 
+## 各種計測コマンド
+
