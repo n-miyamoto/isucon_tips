@@ -14,3 +14,6 @@ https://github.com/n-miyamoto/isucon_suburi/wiki/newrelic
 
 ## systemctl
 https://github.com/n-miyamoto/isucon_suburi/wiki/systemctl
+
+## ruby 
+
