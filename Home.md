@@ -1,25 +1,25 @@
 Welcome to the isucon_suburi wiki!
 
 ## mysql
-https://github.com/n-miyamoto/isucon_suburi/wiki/mysql
+[mysql](mysql)
 
 ## go
-https://github.com/n-miyamoto/isucon_suburi/wiki/go
+[go](go)
 
 ## nginx 
-https://github.com/n-miyamoto/isucon_suburi/wiki/nginx
+[nginx](nginx)
 
 ## systemctl
-https://github.com/n-miyamoto/isucon_suburi/wiki/systemctl
+[systemctl](systemctl)
 
 ## 各種計測コマンド
-https://github.com/n-miyamoto/isucon_suburi/wiki/%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E8%A8%88%E6%B8%AC%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89
+[パフォーマンス計測コマンド](パフォーマンス計測コマンド)
 
 ## alp 
-https://github.com/n-miyamoto/isucon_suburi/wiki/alp
+[alp](alp)
 
 ## newrelic
-https://github.com/n-miyamoto/isucon_suburi/wiki/newrelic
+[newrelic](newrelic)
 
 ## ruby 
-https://github.com/n-miyamoto/isucon_suburi/wiki/ruby
+[ruby](ruby)
