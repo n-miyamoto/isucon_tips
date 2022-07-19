@@ -1,5 +1,7 @@
+## pprofによるprofiling
 
 ## goroutineによる非同期実行
+TODO
 
 ## mapの使い方
 
@@ -33,6 +35,8 @@ mu.Lock()
 なにかcritical sectionな処理
 mu.Unlock()
 ```
+
+
 
 
 
