@@ -23,3 +23,7 @@ Welcome to the isucon_suburi wiki!
 
 ## ruby 
 [ruby](ruby.md)
+
+
+## checklist
+[checklist](checklist.md)
