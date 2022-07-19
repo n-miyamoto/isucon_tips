@@ -9,3 +9,4 @@
 - [ ] slow queryの確認とindex. (特に最後の1時間とか。　大きな改善は望めないので、index をはって改善できないか確認する)
 - [ ] httpsの場合、設定を考える。（http/2を考える. persistent connection のtimeout時間、非同期通信）
 - [ ] 外部APIを確認する　（非同期化する）
+
