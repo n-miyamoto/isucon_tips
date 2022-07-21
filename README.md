@@ -1,4 +1,4 @@
-Welcome to the isucon_suburi wiki!
+Welcome to the isucon_tips!
 
 ## mysql
 [mysql](mysql.md)
