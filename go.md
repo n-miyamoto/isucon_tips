@@ -62,6 +62,27 @@ func main() {
 }
 ```
 
+非同期で実行させて、戻り値を得たい場合はchannelを使用する
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    ch := make(chan int)                   
+    go func() {
+        ch <- 5
+    }()
+
+    //なにか平行で実施したい処理
+
+    //ここで待ち合わせ. channelから受信
+    fmt.Println(<-ch)
+}
+```
+
+
 ## mapの使い方
 
 初期化
