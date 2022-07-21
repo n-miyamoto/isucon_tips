@@ -34,3 +34,20 @@ location /image/ {
   expires 1d;
 }
 ```
+
+
+## gzip 圧縮
+
+```
+http {
+
+    gzip on;
+
+}
+```
+
+
+## http2 on
+```
+listen 443 ssl http2;
+```
