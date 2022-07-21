@@ -95,7 +95,6 @@ mu.Lock()
 mu.Unlock()
 ```
 
+## goの簡易コード実行
 
-
-
-
+https://go.dev/play/
