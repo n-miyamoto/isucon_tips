@@ -29,6 +29,14 @@ r.Handle("/pprof/block", pprof.Handler("block"))
 r.Handle("/pprof/allocs", pprof.Handler("allocs"))
 ```
 
+```sh
+go tool pprof -http=:8888 http://localhost:/pprof/profile?seconds=70 # profileをとってwebUIを
+
+# profile情報を落として、web UIで開く
+go tool pprof  http://localhost:/pprof/profile?seconds=10
+go tool pprof -web ../webapp/golang/app /home/miyamoto/pprof/pprof.app.samples.cpu.032.pb.gz  
+```
+
 ## goroutineによる非同期実行
 
 goroutine を用いて非同期に実行できる。
